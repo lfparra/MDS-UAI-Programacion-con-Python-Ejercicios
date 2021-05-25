@@ -1,16 +1,22 @@
-print('Primeros N números pares (de 2 maneras distintas)')
+print('Primeras 4 potencias de 2 de 3 maneras distintas')
 
-numero_ingresado = int(input('Ingrese un número entero y positivo: '))
+print('Forma 1')
 
-print('Utilizando For Loop')
-for i in range(2, (numero_ingresado*2)+1):
-    if i % 2 == 0:
-        print(i, end = ' ')
+for i in range(1, 5):
+    potencia = 2**i
+    print(potencia, end = ' ')
 
+print('\nForma 2')
 
-print('\nUtilizando While Loop')
-contador = 1
-while contador <= numero_ingresado*2:
-    if contador % 2 == 0:
-        print (contador, end = ' ')
-    contador = contador + 1 
+potencia_2 = 1
+for i in range(4):
+    potencia_2 = potencia_2 * 2
+    print(potencia_2, end = ' ')
+
+print('\nForma 3')
+
+potencia_3 = 1
+while potencia_3 <= 4:
+    calculo = 2**potencia_3
+    potencia_3 = potencia_3 + 1
+    print(calculo, end = ' ') 
