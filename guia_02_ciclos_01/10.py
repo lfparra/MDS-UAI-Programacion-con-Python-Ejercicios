@@ -27,4 +27,4 @@ porcentaje_f = round(suma_f/personas_ingresadas*100, 2)
 porcentaje_m = round(suma_m/personas_ingresadas*100, 2)
 porcentaje_n = round(suma_n/personas_ingresadas*100, 2)
 
-print(f'Se registraron {personas_ingresadas} personas, de las cuales el {porcentaje_f}% son mujeres, el {porcentaje_m}% son hombres y el {porcentaje_n}% no entregó información.') 
+print(f'Se registraron {personas_ingresadas} personas, de las cuales el {porcentaje_f}% son mujeres, el {porcentaje_m}% son hombres y el {porcentaje_n}% no entregó información.')
